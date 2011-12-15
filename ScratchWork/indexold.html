@@ -1,0 +1,212 @@
+<html>
+	<head>
+		<title>Bugsby.net</title>
+		<style type="text/css">
+			canvas 
+			{ 
+				border: 0px; 
+			}
+			body 
+			{
+				margin:0;
+				padding:0;
+				height:100%;
+				overflow: hidden;
+			}
+			#canvas
+			{
+				visibility: hidden;
+			}
+			#centerdiv
+			{
+				position: relative;
+				background-color: #FFFFFF;
+				width: 1000px;
+				left:50%;
+				margin-left:-500px;
+				height: 580px;
+				top:50%;
+				margin-top:-290px;
+			}
+			#navdiv
+			{
+				position: absolute;
+				background-color: #000000;
+				width: 200px;
+				height: 580px;
+				left: 0px;
+				top: 0px;
+			}
+			#loadingdiv
+			{
+				position: absolute;
+				background-color: #000000;
+				width: 300px;
+				height: 80px;
+				left: 500px;
+				top: 250px;
+				font-size: 30px;
+				font-family: serif;
+				color: #DDDDDD;
+			}
+			#maindiv
+			{
+				position: absolute;
+				background-color: #000000;
+				width: 800px;
+				height: 580px;
+				left: 200px;
+				top: 0px;
+			}
+			.button
+			{
+				width: 196px;
+				height: 80px;
+				display: block;
+				text-decoration: none;
+			}
+			.rolloverDiv
+			{
+				position: absolute;
+				background-color: #000000;
+				width: 196px;
+				height: 80px;
+				left: 2px;
+			}
+			.bugsbyRollover
+			{
+				top: 2px;
+			}
+			.bugsbyButton
+			{
+				background-image: url(BugsbyButton.png);
+			}
+			.bugsbyButton:hover
+			{
+				background-image: url(BugsbyHover.png);
+			}
+			.gamesRollover
+			{
+				top: 85px;
+			}
+			.gamesButton
+			{
+				background-image: url(GamesButton.png);
+			}
+			.gamesButton:hover
+			{
+				background-image: url(GamesHover.png);
+			}
+			.workRollover
+			{
+				top: 168px;
+			}
+			.workButton
+			{
+				background-image: url(WorkButton.png);
+			}
+			.workButton:hover
+			{
+				background-image: url(WorkHover.png);
+			}
+			.aboutRollover
+			{
+				top: 251px;
+			}
+			.aboutButton
+			{
+				background-image: url(AboutButton.png);
+			}
+			.aboutButton:hover
+			{
+				background-image: url(AboutHover.png);
+			}
+			.linksRollover
+			{
+				top: 334px;
+			}
+			.linksButton
+			{
+				background-image: url(LinksButton.png);
+			}
+			.linksButton:hover
+			{
+				background-image: url(LinksHover.png);
+			}
+			.ideasRollover
+			{
+				top: 417px;
+			}
+			.ideasButton
+			{
+				background-image: url(IdeasButton.png);
+			}
+			.ideasButton:hover
+			{
+				background-image: url(IdeasHover.png);
+			}
+			.hubrisRollover
+			{
+				top: 500px;
+			}
+			.hubrisButton
+			{
+				background-image: url(HubrisButton.png);
+			}
+			.hubrisButton:hover
+			{
+				background-image: url(HubrisHover.png);
+			}
+		</style>
+		<script type="text/javascript" src="maingame.js"></script>
+		<script type="text/javascript" src="leveldesign.js"></script>
+		<script type="text/javascript" src="bugsby.js"></script>
+		<script type="text/javascript" src="baddie.js"></script>
+		<script type="text/javascript" src="cube.js"></script>
+		<script type="text/javascript" src="platform.js"></script>
+		<script type="text/javascript" src="cookies.js"></script>
+		<script type="text/javascript" src="star.js"></script>
+		<script type="text/javascript" src="wall.js"></script>
+		<script type="text/javascript" src="lightbulb.js"></script>
+		<script type="text/javascript" src="tracksuit.js"></script>
+		<script type="text/javascript" src="key.js"></script>
+		<script type="text/javascript" src="firstending.js"></script>
+		<script type="text/javascript" src="secondending.js"></script>
+	</head>
+	<body bgcolor = #000000 onload="initialize(false);">
+		<div id="centerdiv">
+			
+			<div id="navdiv">
+				<div class="rolloverDiv bugsbyRollover">
+					<a class="button bugsbyButton" href="http://www.bugsby.net">&nbsp;</a>
+				</div>
+				<div class="rolloverDiv gamesRollover">
+					<a class="button gamesButton" href="http://www.bugsby.net">&nbsp;</a>
+				</div>
+				<div class="rolloverDiv workRollover">
+					<a class="button workButton" href="http://www.bugsby.net">&nbsp;</a>
+				</div>
+				<div class="rolloverDiv aboutRollover">
+					<a class="button aboutButton" href="http://www.bugsby.net">&nbsp;</a>
+				</div>
+				<div class="rolloverDiv linksRollover">
+					<a class="button linksButton" href="http://www.bugsby.net">&nbsp;</a>
+				</div>
+				<div class="rolloverDiv ideasRollover">
+					<a class="button ideasButton" href="http://www.bugsby.net">&nbsp;</a>
+				</div>
+				<div class="rolloverDiv hubrisRollover">
+					<a class="button hubrisButton" href="http://www.bugsby.net">&nbsp;</a>
+				</div>
+				<img src="NavTest.png">
+			</div>
+			<div id="maindiv">
+				<canvas id="canvas">
+				</canvas>
+			</div>
+			<div id="loadingdiv">
+				Loading Rad Game
+			</div>
+		</div>
+	</body>
+</html>
