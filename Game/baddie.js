@@ -230,7 +230,14 @@ Baddie.prototype.Update = function(platforms, bugsby)
 				Stars.push(new Star(this.X,this.Y,Math.floor(Math.random() * 20) - 10, -10 + -1 * Math.floor(Math.random() * 20)));
 			}
 			
-			bugsby.dying = true;
+			if(!Cheat.Invincible)
+			{
+				bugsby.dying = true;
+			}
+			else
+			{
+				this.dying = true;
+			}
 		}
 		else
 		{
@@ -359,8 +366,15 @@ Baddie.prototype.HoverUpdate = function(platforms, bugsby)
 			{
 				Stars.push(new Star(this.X,this.Y,Math.floor(Math.random() * 20) - 10, -10 + -1 * Math.floor(Math.random() * 20)));
 			}
-		
-			bugsby.dying = true;
+			
+			if(!Cheat.Invincible)
+			{
+				bugsby.dying = true;
+			}
+			else
+			{
+				this.dying = true;
+			}
 		}
 		else
 		{
