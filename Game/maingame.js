@@ -10,14 +10,14 @@ function initialize(isReset)
 	loadingdiv.style.visibility = 'hidden';	
 	
 	leftkey = new Image();
-	leftkey.src = 'LeftKey.png';
+	leftkey.src = 'Images/LeftKey.png';
 	rightkey = new Image();
-	rightkey.src = 'RightKey.png';
+	rightkey.src = 'Images/RightKey.png';
 	spacekey = new Image();
-	spacekey.src = 'SpaceKey.png';
+	spacekey.src = 'Images/SpaceKey.png';
 	
 	cartwheelAttackInfo = new Image();
-	cartwheelAttackInfo.src = 'CartwheelAttackInfo.png';
+	cartwheelAttackInfo.src = 'Images/CartwheelAttackInfo.png';
 
 	//660
 	//2700
@@ -69,20 +69,20 @@ backgroundScrollX = 0;
 backgroundScrollY = 0;
 
 background = new Image();
-//background.src = 'FullBackground.png';
-background.src = 'HugeLevel.png';
+//background.src = 'Images/FullBackground.png';
+background.src = 'Images/HugeLevel.png';
 
 Title = new Image();
-Title.src = 'Title.png';
+Title.src = 'Images/Title.png';
 
 Flagpole1 = new Image();
-Flagpole1.src = 'Flagpole1.png';
+Flagpole1.src = 'Images/Flagpole1.png';
 
 Flagpole2 = new Image();
-Flagpole2.src = 'Flagpole2.png';
+Flagpole2.src = 'Images/Flagpole2.png';
 
 UpperPlatform = new Image();
-UpperPlatform.src = 'UpperPlatform.png';
+UpperPlatform.src = 'Images/UpperPlatform.png';
 
 WIDTH = 800;
 HEIGHT = 580;
@@ -423,7 +423,7 @@ var i;
 for(i = 0; i < 10; i++)
 {
 	Numbers[i] = new Image();
-	Numbers[i].src = i.toString() + '.png';
+	Numbers[i].src = 'Images/' + i.toString() + '.png';
 }
 
 function PrintNumber(context, x, y, number)

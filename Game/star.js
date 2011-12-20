@@ -13,15 +13,15 @@ function Star(x,y,VX,VY)
 
 StarSprites = new Array(5);
 StarSprites[0] = new Image();
-StarSprites[0].src = 'StarWhite.png';
+StarSprites[0].src = 'Images/StarWhite.png';
 StarSprites[1] = new Image();
-StarSprites[1].src = 'StarRed.png';
+StarSprites[1].src = 'Images/StarRed.png';
 StarSprites[2] = new Image();
-StarSprites[2].src = 'StarBlue.png';
+StarSprites[2].src = 'Images/StarBlue.png';
 StarSprites[3] = new Image();
-StarSprites[3].src = 'StarGreen.png';
+StarSprites[3].src = 'Images/StarGreen.png';
 StarSprites[4] = new Image();
-StarSprites[4].src = 'StarYellow.png';
+StarSprites[4].src = 'Images/StarYellow.png';
 
 Star.prototype.Draw = function(context)
 {	
@@ -54,7 +54,7 @@ function Teardrop(x,y,VX,VY)
 }
 
 TeardropSprite = new Image();
-TeardropSprite.src = 'Teardrop.png';
+TeardropSprite.src = 'Images/Teardrop.png';
 
 Teardrop.prototype.Draw = function(context)
 {	
@@ -89,7 +89,7 @@ function Flag(x,y,VX,VY)
 }
 
 FlagSprite = new Image();
-FlagSprite.src = 'Flag.png';
+FlagSprite.src = 'Images/Flag.png';
 
 Flag.prototype.Draw = function(context)
 {	
@@ -116,23 +116,23 @@ function Cloud(x,y)
 
 CloudSprite = new Array(9);
 CloudSprite[0] = new Image();
-CloudSprite[0].src = 'Cloud1.png';
+CloudSprite[0].src = 'Images/Cloud1.png';
 CloudSprite[1] = new Image();
-CloudSprite[1].src = 'Cloud2.png';
+CloudSprite[1].src = 'Images/Cloud2.png';
 CloudSprite[2] = new Image();
-CloudSprite[2].src = 'Cloud3.png';
+CloudSprite[2].src = 'Images/Cloud3.png';
 CloudSprite[3] = new Image();
-CloudSprite[3].src = 'Cloud4.png';
+CloudSprite[3].src = 'Images/Cloud4.png';
 CloudSprite[4] = new Image();
-CloudSprite[4].src = 'Cloud5.png';
+CloudSprite[4].src = 'Images/Cloud5.png';
 CloudSprite[5] = new Image();
-CloudSprite[5].src = 'Cloud6.png';
+CloudSprite[5].src = 'Images/Cloud6.png';
 CloudSprite[6] = new Image();
-CloudSprite[6].src = 'Cloud7.png';
+CloudSprite[6].src = 'Images/Cloud7.png';
 CloudSprite[7] = new Image();
-CloudSprite[7].src = 'Cloud8.png';
+CloudSprite[7].src = 'Images/Cloud8.png';
 CloudSprite[8] = new Image();
-CloudSprite[8].src = 'Cloud9.png';
+CloudSprite[8].src = 'Images/Cloud9.png';
 
 Cloud.prototype.Draw = function(context)
 {	
@@ -174,7 +174,7 @@ function Yoshi(x,y)
 }
 
 YoshiSprite = new Image();
-YoshiSprite.src = 'Yoshi.png';
+YoshiSprite.src = 'Images/Yoshi.png';
 
 Yoshi.prototype.Draw = function(context)
 {
@@ -238,7 +238,7 @@ function Wave(x,y)
 }
 
 WaveSprite = new Image();
-WaveSprite.src = 'Waves.png';
+WaveSprite.src = 'Images/Waves.png';
 
 Wave.prototype.Draw = function(context)
 {	

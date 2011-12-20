@@ -44,10 +44,10 @@ function SecondEndingUpdate()
 }
 
 SundaeMountainBackground = new Image();
-SundaeMountainBackground.src = 'SundaeMountainBackground.png';
+SundaeMountainBackground.src = 'Images/SundaeMountainBackground.png';
 
 SundaeMountainForeground = new Image();
-SundaeMountainForeground.src = 'SundaeMountainForeground.png';
+SundaeMountainForeground.src = 'Images/SundaeMountainForeground.png';
 
 function SecondEndingDraw()
 {

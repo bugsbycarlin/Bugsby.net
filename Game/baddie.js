@@ -35,19 +35,19 @@ function Baddie(x,y,behavior,item)
 
 BaddieSprite = new Array(7);
 BaddieSprite[0] = new Image();
-BaddieSprite[0].src = 'BaddieWalk1.png';
+BaddieSprite[0].src = 'Images/BaddieWalk1.png';
 BaddieSprite[1] = new Image();
-BaddieSprite[1].src = 'BaddieWalk2.png';
+BaddieSprite[1].src = 'Images/BaddieWalk2.png';
 BaddieSprite[2] = new Image();
-BaddieSprite[2].src = 'BaddieStomped.png';
+BaddieSprite[2].src = 'Images/BaddieStomped.png';
 BaddieSprite[3] = new Image();
-BaddieSprite[3].src = 'BaddieWalk1Flipped.png';
+BaddieSprite[3].src = 'Images/BaddieWalk1Flipped.png';
 BaddieSprite[4] = new Image();
-BaddieSprite[4].src = 'BaddieWalk2Flipped.png';
+BaddieSprite[4].src = 'Images/BaddieWalk2Flipped.png';
 BaddieSprite[5] = new Image();
-BaddieSprite[5].src = 'BaddieHover.png';
+BaddieSprite[5].src = 'Images/BaddieHover.png';
 BaddieSprite[6] = new Image();
-BaddieSprite[6].src = 'BaddieHover2.png';
+BaddieSprite[6].src = 'Images/BaddieHover2.png';
 
 BaddieRunPower = 1.0;
 BaddieFriction = 0.75;

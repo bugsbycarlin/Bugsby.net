@@ -116,10 +116,10 @@ Bugsby.prototype.SecondEndingUpdate = function(platforms)
 }
 
 RiverBackground = new Image();
-RiverBackground.src = 'River.png';
+RiverBackground.src = 'Images/River.png';
 
 RiverForeground = new Image();
-RiverForeground.src = 'RiverForeground.png';
+RiverForeground.src = 'Images/RiverForeground.png';
 
 function SecondEndingDraw()
 {

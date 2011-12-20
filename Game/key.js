@@ -22,7 +22,7 @@ function Key(x,y)
 }
 
 KeySprite = new Image();
-KeySprite.src = 'Key.png';
+KeySprite.src = 'Images/Key.png';
 
 Key.prototype.Draw = function(context)
 {	

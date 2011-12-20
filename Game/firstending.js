@@ -184,32 +184,32 @@ Bugsby.prototype.FirstEndingUpdate = function(platforms)
 }
 
 ForestBackground = new Image();
-ForestBackground.src = "Forest.png";
+ForestBackground.src = 'Images/Forest.png';
 
 BugsbyEating = new Image();
-BugsbyEating.src = 'Eating.png';
+BugsbyEating.src = 'Images/Eating.png';
 
 BugsbyFat = new Image();
-BugsbyFat.src = 'Fat.png';
+BugsbyFat.src = 'Images/Fat.png';
 
 Tongue = new Array(4);
 Tongue[0] = new Image();
-Tongue[0].src = 'Tongue1.png';
+Tongue[0].src = 'Images/Tongue1.png';
 Tongue[1] = new Image();
-Tongue[1].src = 'Tongue2.png';
+Tongue[1].src = 'Images/Tongue2.png';
 Tongue[2] = new Image();
-Tongue[2].src = 'Tongue3.png';
+Tongue[2].src = 'Images/Tongue3.png';
 Tongue[3] = new Image();
-Tongue[3].src = 'Tongue4.png';
+Tongue[3].src = 'Images/Tongue4.png';
 
 TongueAnimationSequence = [-1,-1,-1,-1,-1,-1,-1,0,1,2,3,2,1,0,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2];
 TongueAnimationFrame = 0;
 
 ChompSprite = new Image();
-ChompSprite.src = 'Chomp.png';
+ChompSprite.src = 'Images/Chomp.png';
 
 Credits = new Image();
-Credits.src = 'Credits.png';
+Credits.src = 'Images/Credits.png';
 
 function FirstEndingDraw()
 {

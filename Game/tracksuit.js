@@ -23,7 +23,7 @@ function Tracksuit(x,y)
 }
 
 TracksuitSprite = new Image();
-TracksuitSprite.src = 'TracksuitItem.png';
+TracksuitSprite.src = 'Images/TracksuitItem.png';
 
 Tracksuit.prototype.Draw = function(context)
 {	

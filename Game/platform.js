@@ -143,7 +143,7 @@ MovingPlatform.prototype.SetHeight = function(bugsby)
 }
 
 MovingPlatformSprite = new Image();
-MovingPlatformSprite.src = "MovingPlatform.png";
+MovingPlatformSprite.src = 'Images/MovingPlatform.png';
 
 MovingPlatform.prototype.DebugDraw = function(context)
 {
@@ -234,7 +234,7 @@ SlidingPlatform.prototype.SetHeight = function(bugsby)
 }
 
 SlidingPlatformSprite = new Image();
-SlidingPlatformSprite.src = "SlidingPlatform.png";
+SlidingPlatformSprite.src = 'Images/SlidingPlatform.png';
 
 SlidingPlatform.prototype.DebugDraw = function(context)
 {

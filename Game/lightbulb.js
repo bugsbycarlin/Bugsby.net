@@ -22,7 +22,7 @@ function Lightbulb(x,y)
 }
 
 LightbulbSprite = new Image();
-LightbulbSprite.src = 'Lightbulb.png';
+LightbulbSprite.src = 'Images/Lightbulb.png';
 
 Lightbulb.prototype.Draw = function(context)
 {	

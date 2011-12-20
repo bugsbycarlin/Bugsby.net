@@ -24,7 +24,7 @@ function Cookie(x,y)
 }
 
 CookieSprite = new Image();
-CookieSprite.src = 'Cookie.png';
+CookieSprite.src = 'Images/Cookie.png';
 
 Cookie.prototype.Draw = function(context)
 {	
